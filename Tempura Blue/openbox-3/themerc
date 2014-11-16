@@ -1,0 +1,104 @@
+### Tempura Blue for OpenBox by Kexolino ###
+
+# Menu
+
+menu.border.color: #F4F4F4
+menu.border.width: 2
+
+menu.title.bg: Flat Gradient Vertical Border
+menu.title.bg.color: #3b3b3b
+menu.title.bg.colorTo: #424242
+menu.title.bg.border.color: #606060
+menu.title.text.color: #ffffff
+menu.title.text.justify: Left
+
+menu.items.bg: Flat Solid
+menu.items.bg.color: #F4F4F4
+menu.items.text.color: #000000
+menu.items.disabled.text.color: #9b9b9b
+
+menu.items.active.bg: Flat Solid Border
+menu.items.active.bg.color: #81AEF8
+menu.items.active.text.color: #000000
+menu.items.active.bg.border.color: #4473BF
+
+# Focused windows
+
+window.active.title.bg: Flat Gradient Vertical Border
+window.active.title.bg.color: #3b3b3b
+window.active.title.bg.colorTo: #424242
+window.active.title.bg.border.color: #606060
+
+window.active.label.bg: Parentrelative
+window.active.label.text.color: #ffffff
+
+window.active.handle.bg: Raised Solid
+window.active.handle.bg.color: #E7E7E7
+
+window.active.grip.bg: Raised Solid
+window.active.grip.bg.color: #E7E7E7
+
+window.active.button.unpressed.bg: Parentrelative
+window.active.button.unpressed.image.color: #3F3F3F
+window.active.button.toggled.unpressed.image.color: #3F3F3F
+
+window.active.button.hover.bg: Parentrelative
+window.active.button.hover.image.color: #E7E7E7
+window.active.button.toggled.hover.image.color: #E7E7E7
+
+window.active.button.pressed.bg: Parentrelative
+window.active.button.pressed.image.color: #ced7ce
+window.active.button.toggled.pressed.image.color: #E7E7E7
+
+window.active.button.disabled.bg: Parentrelative
+window.active.button.disabled.image.color: #353535
+
+window.active.button.toggled.bg: Parentrelative
+window.active.button.toggled.image.color: #3F3F3F
+
+
+
+# Unfocused windows
+
+window.inactive.title.bg: Flat Gradient Vertical Border
+window.inactive.title.bg.color: #3b3b3b
+window.inactive.title.bg.colorTo: #424242
+window.inactive.title.bg.border.color: #606060
+
+window.inactive.label.bg: Parentrelative
+window.inactive.label.text.color: #686868
+
+window.inactive.handle.bg: Raised Solid
+window.inactive.handle.bg.color: #E7E7E7
+
+window.inactive.grip.bg: Raised Solid
+window.inactive.grip.bg.color: #E7E7E7
+
+window.inactive.button.unpressed.bg: Parentrelative
+window.inactive.button.unpressed.image.color: #3F3F3F
+window.inactive.button.toggled.unpressed.image.color: #3F3F3F
+
+window.inactive.button.hover.bg: Parentrelative
+window.inactive.button.hover.image.color: #E7E7E7
+window.inactive.button.toggled.hover.image.color: #E7E7E7
+
+window.inactive.button.pressed.bg: Parentrelative
+window.inactive.button.pressed.image.color: #E7E7E7
+window.inactive.button.pressed.toggled.image.color: #E7E7E7
+
+window.inactive.button.disabled.bg: Parentrelative
+window.inactive.button.disabled.image.color: #686868
+
+window.inactive.button.toggled.bg: Parentrelative
+window.inactive.button.toggled.bg.color: #3F3F3F
+
+
+
+# Everything else
+
+border.width: 1
+padding.width: 2
+window.handle.width: 3
+window.client.padding.width: 0
+border.color: #2c2c2c
+menu.overlap: -0

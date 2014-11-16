@@ -1,0 +1,131 @@
+!!Theme 	Equinox Evolution for Openbox by Kexolino, based on Loma by zero-gravity
+
+!! ------------- OSD ---------------
+osd.hilight.bg: Flat Gradient Vertical
+osd.hilight.bg.color: #6CA1EA
+osd.hilight.bg.colorTo: #427CE5
+
+osd.unhilight.bg: Flat Gradient Vertical
+osd.unhilight.bg.color: #F5F5F5
+osd.unhilight.bg.colorTo: #BEBEBE
+
+!! ------------- Menu --------------
+
+!! ---Border
+menu.border.width:	0
+
+!! ---Text
+menu.title.text.justify:		Center
+menu.title.text.color: 			#000000
+
+menu.items.text.color:			#000000
+menu.items.disabled.text.color:		#cccccc
+
+menu.items.active.text.color:		#ffffff
+menu.items.active.disabled.text.color:	#666666
+
+
+!! ---Backgrounds
+menu.items.bg:			Flat
+menu.items.bg.color:		#FAFBFF
+
+menu.items.active.bg:		Flat Gradient Vertical
+menu.items.active.bg.color:	#6CA1EA
+menu.items.active.bg.colorTo: #427CE5
+
+menu.title.bg: 			Flat Gradient Vertical
+menu.title.bg.color:		#F5F5F5
+menu.title.bg.colorTo:		#BEBEBE
+
+
+!! ------------- Active windows --------------
+
+!! ---Borders
+border.width:				0
+window.client.padding.width: 		1
+window.client.padding.height: 		0
+window.active.border.color: 		#DEDEDE
+window.active.client.color: 		#DDDDDD
+
+!! ---Grip & Handle
+window.handle.width:			0
+window.active.grip.bg:			Parentrelative
+
+window.active.handle.bg: 		Gradient Vertical
+window.active.handle.bg.color: 		#000000
+window.active.handle.bg.colorTo: 	#423a3a
+
+
+!! ---Text
+window.label.text.justify: 		Center
+window.active.label.text.color: 	#000000
+
+!! ---Backgrounds
+window.active.label.bg: 		Parentrelative
+
+window.active.title.bg:			Flat Gradient Vertical
+window.active.title.bg.color:		#F5F5F5
+window.active.title.bg.colorTo:		#DCDCDC
+
+!! ---Buttons unpressed
+window.active.button.unpressed.bg: 		Parentrelative
+window.active.button.unpressed.image.color: 	#333333
+window.active.button.toggled.unpressed.image.color: #333333
+
+!! ---Buttons pressed
+window.active.button.pressed.bg: 		Parentrelative
+window.active.button.pressed.image.color: 	#b7b89f
+window.active.button.toggled.pressed.image.color: #b7b89f
+
+!! ---Buttons hover
+window.active.button.hover.bg: 			Parentrelative
+window.active.button.hover.image.color: 	#6CA1EA
+window.active.button.toggled.hover.image.color: #6CA1EA
+
+!! ---Disabled Buttons
+window.active.button.disabled.bg: Flat Gradient Vertical
+window.active.button.disabled.bg.color: #F5F5F5
+window.active.button.disabled.bg.colorTo: #DCDCDC
+window.active.button.disabled.image.color: #D9D9D9
+
+
+!! ------------- Inactive windows ------------
+
+!! ---Borders
+window.inactive.border.color: 		#000000
+window.inactive.client.color: 		#DDDDDD
+
+!! ---Grip & Handle
+window.inactive.handle.width:		0
+window.inactive.grip.bg:		Parentrelative
+
+window.inactive.handle.bg: 		Flat
+window.inactive.handle.bg.color: 	#000000
+
+!! ---Text
+window.inactive.label.text.justify: 	Center
+window.inactive.label.text.color: 	#7D7D7D
+
+!! ---Backgrounds
+window.inactive.label.bg: 		Parentrelative
+
+window.inactive.title.bg:		Flat Gradient Vertical
+window.inactive.title.bg.color:		#F5F5F5
+window.inactive.title.bg.colorTo:	#DCDCDC
+
+!! ---Buttons unpressed
+window.inactive.button.unpressed.bg: 			Parentrelative
+window.inactive.button.unpressed.image.color: 		#999999
+window.inactive.button.toggled.bg:			Parentrelative
+window.inactive.button.toggled.unpressed.image.color: #999999
+
+!! ---Buttons hover
+window.inactive.button.hover.bg: 			Parentrelative
+window.inactive.button.hover.image.color: 	#6CA1EA
+window.inactive.button.toggled.hover.image.color: #6CA1EA
+
+!! ---Disabled Buttons
+window.inactive.button.disabled.bg: Flat Gradient Vertical
+window.inactive.button.disabled.bg.color: #F5F5F5
+window.inactive.button.disabled.bg.colorTo: #DCDCDC
+window.inactive.button.disabled.image.color: #D9D9D9

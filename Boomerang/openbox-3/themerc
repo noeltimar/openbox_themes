@@ -1,0 +1,129 @@
+## Boomerang by Kexolino
+
+## OSD
+
+osd.bg: flat gradient vertical
+osd.bg.color: #DBDBDB
+osd.bg.colorTo: #d2d2d2
+
+osd.hilight.bg: Flat Gradient Vertical border
+osd.hilight.bg.color: #61B1FF
+osd.hilight.bg.colorTo: #3b9cfd
+osd.hilight.bg.border.color:  #278CF0
+
+osd.unhilight.bg: flat solid
+osd.unhilight.bg.color: #d2d2d2
+
+
+## Menu titles
+
+menu.title.bg: flat splitvertical gradient
+menu.title.bg.color: #DBDBDB
+menu.title.bg.color.splitTo: #DBDBDB
+menu.title.bg.colorTo: #D2D2D2
+menu.title.bg.colorTo.splitTo: #D2D2D2
+menu.title.text.color: #2d2d2d
+
+menu.title.text.justify: center
+
+## Menu items
+
+menu.separator.color: #CACACA
+
+menu.items.bg: flat solid
+menu.items.bg.color: #DEDEDE
+menu.items.text.color: #4c4c4c
+menu.items.justify: left
+menu.items.disabled.text.color: #666666
+
+## Active menu items
+
+menu.items.active.bg: flat vertical gradient border
+menu.items.active.bg.color: #61B1FF
+menu.items.active.bg.colorTo: #3B9CFD
+menu.items.active.bg.border.color: #278CF0
+
+menu.items.active.text.color: #ffffff
+
+## Window titles
+
+window.active.title.bg: flat splitvertical gradient
+window.active.title.bg.color: #DBDBDB
+window.active.title.bg.color.splitTo: #DBDBDB
+window.active.title.bg.colorTo: #D2D2D2
+window.active.title.bg.colorTo.splitTo: #D2D2D2
+
+window.inactive.title.bg: flat splitvertical gradient
+window.inactive.title.bg.color: #DBDBDB
+window.inactive.title.bg.color.splitTo: #DBDBDB
+window.inactive.title.bg.colorTo: #D2D2D2
+window.inactive.title.bg.colorTo.splitTo: #D2D2D2
+
+## Window labels
+
+window.label.text.justify: center
+
+window.active.label.bg: parentrelative
+window.active.label.text.color: #2D2D2D
+
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #656565
+
+## Handles
+
+window.active.handle.bg: flat solid
+window.active.handle.bg.color: #d2d2d2
+
+window.inactive.handle.bg: flat solid
+window.inactive.handle.bg.color: #d2d2d2
+
+## Grips
+
+window.active.grip.bg: flat solid
+window.active.grip.bg.color: #d2d2d2
+
+window.inactive.grip.bg: flat solid
+window.inactive.grip.bg.color: #d2d2d2
+
+## Buttons
+
+window.active.button.*.bg: parentrelative
+window.inactive.button.*.bg: parentrelative
+
+window.active.button.unpressed.image.color: #008EF2
+window.active.button.toggled.unpressed.image.color: #008EF2
+
+window.active.button.pressed.image.color: #0076C9
+window.active.button.toggled.pressed.image.color: #0076C9
+
+window.active.button.hover.image.color: #36ACFF
+window.active.button.toggled.hover.image.color: #36ACFF
+
+window.active.button.disabled.image.color: #d2d2d2
+
+window.inactive.button.unpressed.image.color: #008EF2
+window.inactive.button.toggled.unpressed.image.color: #008EF2
+
+window.inactive.button.pressed.image.color: #0076C9
+window.inactive.button.toggled.pressed.image.color: #0076C9
+
+window.inactive.button.hover.image.color: #36ACFF
+window.inactive.button.toggled.hover.image.color: #36ACFF
+
+window.inactive.button.disabled.image.color: #D2D2D2
+
+## Misc.
+
+border.color: #202020
+border.width: 0
+padding.height: 3
+padding.width: 6
+window.handle.width: 1
+window.client.padding.width: 0
+menu.overlap: 0
+
+## Shadows
+
+window.active.label.text.font:shadow=y:shadowtint=-70:shadowoffset=1
+window.inactive.label.text.font:shadow=y:shadowtint=-70:shadowoffset=1
+menu.title.text.font:shadow=y:shadowtint=-70:shadowoffset=1

@@ -1,0 +1,139 @@
+### Equinox Evolution Midnight for OpenBox by Kexolino ###
+
+### OSD ###
+
+osd.bg: Flat
+osd.bg.color: #313131
+
+osd.active.label.bg: Flat 
+osd.active.label.bg.color: #313131
+
+osd.inactive.label.bg: Flat
+osd.inactive.label.bg.color: #313131
+
+osd.hilight.bg: Flat Gradient Vertical
+osd.hilight.bg.color: #5181AE
+osd.hilight.bg.colorTo: #426C9E
+
+osd.unhilight.bg: Flat Gradient Vertical
+osd.unhilight.bg.color: #CBCBCB
+osd.unhilight.bg.colorTo: #AEAEAE
+
+osd.label.text.color: #E6E6E6
+osd.active.label.text.color: #FFFFFF
+
+osd.border.width: 1
+osd.border.color: #313131
+
+### MENU ###
+
+# Border #
+
+menu.border.width: 0
+
+# Text #
+
+menu.title.text.justify: Center
+menu.title.text.color: #E6E6E6
+
+menu.items.text.color: #E6E6E6
+menu.items.disabled.text.color: #9C9C9C
+
+menu.items.active.text.color: #FFFFFF
+menu.items.active.disabled.text.color: #9C9C9C
+
+# Backgrounds #
+
+menu.items.bg: Flat
+menu.items.bg.color: #313131
+
+menu.items.active.bg: Flat Gradient Vertical
+menu.items.active.bg.color:	#5181AE
+menu.items.active.bg.colorTo: #426C9E
+
+menu.title.bg: Flat Gradient Vertical
+menu.title.bg.color: #424242
+menu.title.bg.colorTo: #343434
+
+### ACTIVE WINDOWS ###
+
+# Border & Handle & Padding #
+
+border.width: 0
+window.active.border.color: #525252
+
+window.handle.width: 0
+
+padding.width: 0
+padding.height: 0
+
+# Text #
+
+window.label.text.justify: Center
+window.active.label.text.color: #2E2E2E
+
+# Backgrounds #
+
+window.active.label.bg: Parentrelative
+window.active.title.bg:	Flat Gradient Vertical
+window.active.title.bg.color: #CBCBCB
+window.active.title.bg.colorTo:	#AEAEAE
+window.active.title.separator.color: #B0B0B0
+
+# Buttons #
+
+window.active.button.unpressed.bg: Parentrelative
+window.active.button.unpressed.image.color: #2E2E2E
+window.active.button.toggled.unpressed.image.color: #2E2E2E
+
+window.active.button.pressed.bg: Parentrelative
+window.active.button.pressed.image.color: #1F1F1F
+window.active.button.toggled.pressed.image.color: #1F1F1F
+
+window.active.button.hover.bg: Parentrelative
+window.active.button.hover.image.color: #4977A6
+window.active.button.toggled.hover.image.color: #4977A6
+
+window.active.button.disabled.bg: Parentrelative
+window.active.button.disabled.image.color: #A8A8A8
+
+### INACTIVE WINDOWS ###
+
+# Border & Handle & Padding #
+
+border.width: 1
+window.inactive.border.color: #525252
+
+window.handle.width: 0
+
+padding.width: 0
+padding.height: 3
+
+# Text #
+
+window.inactive.label.text.color: #6C6C6C
+
+# Backgrounds #
+
+window.inactive.label.bg: Parentrelative
+window.inactive.title.bg: Flat Gradient Vertical
+window.inactive.title.bg.color: #CBCBCB
+window.inactive.title.bg.colorTo: #AEAEAE
+window.inactive.title.separator.color: #B0B0B0
+
+# Buttons #
+
+window.inactive.button.unpressed.bg: Parentrelative
+window.inactive.button.unpressed.image.color: #6C6C6C
+window.inactive.button.toggled.unpressed.image.color: #6C6C6C
+
+window.inactive.button.pressed.bg: Parentrelative
+window.inactive.button.pressed.image.color: #6C6C6C
+window.inactive.button.toggled.pressed.image.color: #6C6C6C
+
+window.inactive.button.hover.bg: Parentrelative
+window.inactive.button.hover.image.color: #4977A6
+window.inactive.button.toggled.hover.image.color: #4977A6
+
+window.inactive.button.disabled.bg: Parentrelative
+window.inactive.button.disabled.image.color: #A8A8A8

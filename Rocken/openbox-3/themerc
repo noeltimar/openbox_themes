@@ -1,0 +1,123 @@
+# Openbox port of Rocken FVWM theme
+# Original by ~thibaut28
+# Port by ~kexolino
+
+## OSD
+
+osd.hilight.bg: Flat Gradient Vertical
+osd.hilight.bg.color: #505050
+osd.hilight.bg.colorTo: #3B3B3B
+
+## Menus
+
+# Border
+
+menu.border.width: 1
+menu.border.color: #000000
+
+# Text
+
+menu.title.text.justify: Left
+menu.title.text.color: #000000
+
+menu.items.text.color: #606060
+menu.items.disabled.text.color: #454545
+menu.items.active.text.color: #FEFEFE
+menu.items.active.disabled.text.color: #454545
+
+menu.separator.color: #090A0A
+
+# Backgrounds
+
+menu.items.bg: Flat
+menu.items.bg.color: #090A0A
+
+menu.items.active.bg: Flat
+menu.items.active.bg.color: #090A0A
+
+menu.title.bg: Flat Gradient Vertical
+menu.title.bg.color: #F6F6F6
+menu.title.bg.colorTo: #9E9E9E
+
+## Active Windows
+
+# Border, Handle, Padding
+
+border.width: 1
+window.active.border.color: #000000
+
+window.handle.width: 1
+
+padding.width: 5
+padding.height: 3
+window.client.padding.width: 0
+
+# Text
+
+window.labal.text.justify: Left
+window.active.label.text.color: #000000
+window.active.label.text.font:shadow=y:shadowtint=-60:shadowoffset=1
+
+# Backrounds
+
+window.active.label.bg: Parentrelative
+window.active.title.bg:	Flat Gradient Vertical
+window.active.title.bg.color: #F6F6F6
+window.active.title.bg.colorTo:	#9E9E9E
+window.active.title.separator.color: #D0CFCE
+
+# Buttons
+
+window.active.button.unpressed.bg: Parentrelative
+window.active.button.unpressed.image.color: #222F3F
+window.active.button.toggled.unpressed.image.color: #222F3F
+
+window.active.button.pressed.bg: Parentrelative
+window.active.button.pressed.image.color: #0089FF
+window.active.button.toggled.pressed.image.color: #0089FF
+
+window.active.button.hover.bg: Parentrelative
+window.active.button.hover.image.color: #0078DF
+window.active.button.toggled.hover.image.color: #0078DF
+
+window.active.button.disabled.bg: Parentrelative
+window.active.button.disabled.image.color: #9F9F9F
+
+## Inactive Windows
+
+# Border, Handle, Padding
+
+window.inactive.border.color: #000000
+
+# Text #
+
+window.label.text.justify: Left
+window.inactive.label.text.color: #000000
+window.inactive.label.text.font:shadow=y:shadowtint=-60:shadowoffset=1
+
+# Backgrounds #
+
+window.inactive.label.bg: Parentrelative
+window.inactive.title.bg: Flat Gradient Vertical
+window.inactive.title.bg.color: #F6F6F6
+window.inactive.title.bg.colorTo: #9E9E9E
+window.inactive.title.separator.color: #D0CFCE
+
+# Buttons #
+
+window.inactive.button.unpressed.bg: Parentrelative
+window.inactive.button.unpressed.image.color: #222F3F
+window.inactive.button.toggled.unpressed.image.color: #222F3F
+
+window.inactive.button.pressed.bg: Parentrelative
+window.inactive.button.pressed.image.color: #646464
+window.inactive.button.toggled.pressed.image.color: #646464
+
+window.inactive.button.hover.bg: Parentrelative
+window.inactive.button.hover.image.color: #0078DF
+window.inactive.button.toggled.hover.image.color: #0078DF
+
+window.inactive.button.disabled.bg: Parentrelative
+window.inactive.button.disabled.image.color: #9F9F9F
+
+
